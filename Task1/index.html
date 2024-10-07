@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form>
+        <label for="name">First Name: </label>
+        <input type="text"
+        placeholder="enter name here"
+        required
+        minlength="4"
+        maxlength="15"
+        name="name"
+        id="name">
+        
+        <label for="surname">Second Name: </label>
+        <input type="text"
+        placeholder="enter surname here"
+        required
+        minlength="4"
+        maxlength="15"
+        name="surname"
+        id="surname">
+
+        <br>
+        <br>
+
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <br>
+      <input type="radio" name="gender" id="female" checked />
+      <label for="female">Female</label>
+      <br>
+      <br>
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="e-mail.address"
+        required
+      />
+      <br>
+      <br>
+      <label for="message">Comment:</label>
+      <br>
+      <textarea
+        name="message"
+        id="message"
+        placeholder="your message here.."
+        rows="5"
+        cols="20"
+      ></textarea>
+      <br>
+      <br>
+      <label for="lang">Select Language</label>
+      <select name="lang" id="lang">
+        <option value="az">Azerbaijan</option>
+        <option value="en" selected>English</option>
+        <option value="ru">Russian</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" value="Send Feedback" />
+      <input type="reset" name="" id="" value="Reset" />
+    </form>
+    
+</body>
+</html>
