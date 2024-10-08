@@ -1,0 +1,3 @@
+.items span:nth-child(3n){
+    background-color: red;
+}
