@@ -1,0 +1,24 @@
+.first h1{
+    background-color: cadetblue;
+    color: white  ;
+    text-align: center;
+
+}
+.second h1, .second p{
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 1, 1)  ;
+    text-align: center;
+
+}
+.third{
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    
+} 
+.third{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}

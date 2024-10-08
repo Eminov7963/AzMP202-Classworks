@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+}
+.firth{
+    background-color:lightgreen;
+
+}
+.second{
+    background-color:#ddaefa;
+}
+.third{
+    background-color: rgb(155,55,128);
+    color: white;
+}
+.fourth{
+    background-color:hsl(60,22%,50%);
+    color: white;
+}
+.box{
+    border: 3px solid red;
+
+}
+.box p{
+    text-align: center;
+}
+.main{
+    text-align: center;
+}
