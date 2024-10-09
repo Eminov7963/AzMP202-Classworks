@@ -1,0 +1,43 @@
+body{
+    background-color: blueviolet;
+}
+.repon{
+    color: white;
+    text-align: center;
+}
+.card{
+    background-color: white;
+    display: inline-block;
+    height: 400px;
+    width: 250px;
+    margin: o auto;
+
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(225, 0, 255, 0.418);
+    border-radius: 50%;
+    
+}
+.photo img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    border-radius: 50%;
+}
+.photo h1{
+    color: rgb(157, 3, 204);
+}
+.submit{
+
+
+}
+.cardarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+}

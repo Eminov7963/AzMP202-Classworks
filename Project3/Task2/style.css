@@ -1,0 +1,27 @@
+body    {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/640px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.main .boot h1, p{
+    color: white;
+}
+.main{
+    
+}
+.boot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+.list{
+    color: white;
+ 
+}
