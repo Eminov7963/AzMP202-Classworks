@@ -1,0 +1,38 @@
+.sercle{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+.daire{
+    background-color: rgb(166, 255, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 1px 10px 1pc;
+}
+.main{
+    display: flex;
+    margin: 10px;
+}
+
+.ucbucaq{
+    background-color: rgb(0, 0, 10);
+    width: 50px;
+    height: 50px;
+    border-radius: 5px 10px 20px 13px;
+}
+.kvadrat{
+    background-color: rgb(196, 11, 11);
+    width: 50px;
+    height: 50px;
+    border-radius: 5px 20px 5px 20px;
+}
+.git{
+    margin: 10px;
+    
+
+}
+.git1{
+    display: flex;
+}
