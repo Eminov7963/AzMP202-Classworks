@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.first-div {
+    background-color: rgb(235, 235, 227);
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    margin: 30px ;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    padding: 4rem 0;
+}
+.first-div p{
+    width: 300px;
+    font-size: 15px;
+
+     
+    
+}
+
+
+.first-div .icon i{
+    background-color: blue ;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+   
+   
+
+    
+
+}
+.icon{
+
+    margin-top: -40px;
+}
