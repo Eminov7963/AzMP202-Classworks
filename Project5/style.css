@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    background-color: rgb(211, 223, 223);
+    
+}
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding:50px;
+   background-color: rgb(255, 255, 255);
+   
+
+
+}
+
+.products img{
+    width: 100%;
+
+}
+
+.products{
+    display: flex;
+    gap: 30px;
+}
+.products .span span.greene{
+    background: green;
+    color: white;
+    display: block;
+    width: 80px;
+        
+}
+
+.products .span span.blacker{
+    background: rgb(0, 0, 0);
+    color: white;
+    display: block;
+    width: 80px;
+    margin-top: 10px;
+    
+}
+.card{
+    background-color: white;
+    border: 5px solid rgba(109, 10, 10, 0.733);
+    position: relative;
+
+}
+.icon{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+
+}
+.span .greene{
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+}
+.span .blacker{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.span{
+    margin: 5px;
+}
+.stars{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
