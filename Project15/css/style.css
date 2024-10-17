@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    border: 1px solid black;
+}
+header .container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    
+}
+header .nav ul{
+    display: flex;
+    align-items: center;
+
+    
+}
+header .nav ul li{
+    padding: 10px;
+    font-size: 25px;  
+}
+/* main-img */
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container .txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    height: 700px;
+    width: 1500px;
+    
+}
+
+main .container .txt .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+main .container .txt .img h1{
+    background-color: black;
+    padding: 10px;
+    font-size: 40px;
+}
+/* ------------- */
+section .container .h-1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* ---------sec-2--------- */
+.sec-2 .container .row .col-3{
+    position: relative;
+}
+.sec-2 .container .row .col-3 .img img{
+    width: 100%;
+}
+.sec-2 .container .row .col-3 .txt{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    top: 15px;
+    left: 15px;
+    padding: 10px;
+    
+}
+/* ------About------ */
+.container .h-3{
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    
+    
+}
+.container .p-1{
+    padding-top: 30px;
+    font-size: 20px;
+    
+}
+/* sec-3 */
+.sec-3 .container .row .col-3 {
+    width: 310px;
+    margin-right: 10px;
+}
+.sec-3 .container .row .col-3 .img img{
+    width: 100%;
+}
+.sec-3 .container .row .col-3 .a-href{
+    background-color: rgb(216, 212, 212);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.sec-3 .container .row .col-3 .a-href button{
+    background-color: rgb(216, 212, 212);
+    text-align: center;
+    border: none;
+    
+}
+.sec-3 .container .row .col-3 .a-href a{
+    background-color: rgb(216, 212, 212);
+    text-align: center;
+    
+    
+}
+/* sec-4 */
+.sec-4 .input .h-1{
+    border-bottom: 1px solid black;
+}
+.sec-4 .input .input-name{
+    margin-top: 20px;
+    width: 1414px;
+    height: 40.5px;
+    margin-bottom: 20px;
+}
+.sec-4 .input .email{
+    width: 1414px;
+    height: 40.5px;
+    margin-bottom: 20px;
+}
+
+.sec-4 .input .subject{
+    width: 1414px;
+    height: 40.5px;
+    margin-bottom: 20px;
+}
+.sec-4 .input .comment{
+    width: 1414px;
+    height: 40.5px;
+    margin-bottom: 20px;
+}
+.sec-4 .input .button{
+    width: 1414px;
+    height: 40.5px;
+    margin-bottom: 20px;
+}
+.sec-4 .input .button button{
+    border: none;
+    padding: 20px;
+    background-color: black;
+}
+.sec-4 .input .button button a{
+    color: white;
+}
+.sec-4 .input .width #name{
+    width: 1414px;
+    height: 40.5px;
+    
+}
+.sec-4 .input .width #email{
+    width: 1414px;
+    height: 40.5px;
+}
+.sec-4 .input .width #subject{
+    width: 1414px;
+    height: 40.5px;
+}
+.sec-4 .input .width #comment{
+    width: 1414px;
+    height: 40.5px;
+}
+/* sec-5 */
+.sec-5{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-5 .img img{
+    width: 100%;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+footer .container .row{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .row .txt h1{
+    color: white;
+    font-size: 30px;
+    
+
+}

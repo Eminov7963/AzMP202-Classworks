@@ -1,0 +1,52 @@
+.container {  display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "col-1 col-2 col-3 col-3"
+      "col-4 col-4 col-3 col-3"
+      "col-4 col-4 col-3 col-3"
+      "col-5 col-5 col-6 col-6"
+      ". . . .";
+      justify-content: center;
+      gap: 10px;
+      color: white;
+      
+      
+
+  }
+
+  .container div{
+    padding: 20px 0px;
+    display: grid;
+    align-items: center;
+  }
+  .col-1 {
+     
+    grid-area: col-1;
+    background-color: rgb(255, 136, 0);
+}
+  
+  .col-2 { 
+    background-color: blue;
+    grid-area: col-2; }
+  
+  
+  .col-3 { 
+    background-color: red;
+    grid-area: col-3; }
+  
+  .col-4 { 
+    background-color: rgb(255, 0, 255);
+    grid-area: col-4; }
+  
+  .col-5 { 
+    background-color: rgb(28, 119, 89);
+    grid-area: col-5; }
+  
+  .col-6 { 
+    background-color: rgb(118, 209, 13);
+    grid-area: col-6; }
+  

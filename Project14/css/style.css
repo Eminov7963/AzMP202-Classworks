@@ -1,0 +1,27 @@
+.container {  display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 0px 0px;
+
+    justify-content: center;
+    background-color: rgb(204, 165, 168) ;    
+    color: rgb(255, 0, 0);
+}
+
+.container .col-3{
+    background-color: black;
+    grid-column: span 2;
+}
+
+.container .col-2{
+    background-color: rgb(177, 36, 36);
+    grid-row: span 2;
+}
+.container .col-6{
+    background-color: rgb(145, 255, 1);
+    grid-row: span 2;
+}
+.container .col-8{
+    background-color: rgb(79, 12, 134);
+    grid-column: span 2;
+}
