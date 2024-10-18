@@ -1,0 +1,42 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 10px;
+    background-color: black;
+}
+
+.container1 .box {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+.container1 .box{
+    text-align: center;
+}
+.container1 .box:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+    
+
+}
+.container1 .box .icon{
+    margin-bottom: 10px;
+}
+
+.container1 .box i{
+    font-size: 30px;
+}
+.container1 .box button{
+    background-color: yellow;
+    border-radius: 100px;
+}
+

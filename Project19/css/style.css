@@ -1,0 +1,106 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container1 .box {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+.container1 .box{
+    text-align: center;
+}
+.container1 .box:hover {
+    
+    
+
+}
+
+.container1 .box .icon{
+    margin-bottom: 10px;
+}
+
+.container1 .box i{
+    font-size: 30px;
+}
+.container1 .box button{
+    background-color: yellow;
+    border-radius: 100px;
+}
+.overlay1{
+position: absolute;
+bottom: 0;
+right: 0;
+height: 2px;
+width: 0%;
+background-color: green;
+transition: all 0.2s;
+
+}
+.box:hover .overlay1{
+    width: 100%;
+
+    
+}
+.overlay2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    width: 2px;
+    background-color: green;
+    transition: all 0.4s;
+    transition: 0.4;
+    
+    }
+    .box:hover .overlay2{
+        height: 100%;
+    
+        
+    }
+    
+    .overlay3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 2px;
+        width: 0%;
+        background-color: green;
+        transition: all 0.8s;
+        transition: 0.6;
+        
+        }
+        .box:hover .overlay3{
+            width: 100%;
+        
+            
+        }
+
+        .overlay2{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 0%;
+            width: 2px;
+            background-color: green;
+            transition: all 0.4s;
+            transition: 1s;
+            
+            }
+            .box:hover .overlay2{
+                width: 100%;
+            
+                
+            }
