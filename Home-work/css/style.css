@@ -1,0 +1,17 @@
+section#sec-1{
+    background-color: black;
+    
+}
+section#sec-1 .txt{
+    color: white;
+}
+section#sec-1 a{
+    color: white;
+}
+header .row{
+    display: flex
+}
+header{
+    padding: 30px;
+    color: white    ;
+}

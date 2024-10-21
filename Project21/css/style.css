@@ -1,0 +1,41 @@
+main section#banner{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 0;
+}
+
+.img img{
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+    text-align: center;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+}
+section#people{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section#people .txt{
+    text-align: center;
+}
+section#people .cards img{
+    border-radius: 50%;
+    padding: 20px;
+}
+.icon-6{
+    text-align: right;
+    
+    font-size: 30px;
+}
