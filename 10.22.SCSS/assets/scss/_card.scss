@@ -1,0 +1,56 @@
+section#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container{
+            max-width: 1200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        .row1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin:50px 0px;
+            .head{
+                display: flex;
+                text-align: center;
+                padding-bottom: 15px;
+                h1{
+                    font-size: 2rem;
+                    padding-right: 5px;
+                }
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+            p{
+                text-align: center;
+                font-size: 1.5rem;
+            }
+        }
+        .row2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .img{
+                img{
+                    width: 100%;
+                }
+            }
+            h1{
+                text-align: center;
+                font-size: 2rem;
+                color:$goy-reng;
+                padding: 5px 0px;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

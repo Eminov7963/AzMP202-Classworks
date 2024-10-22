@@ -1,0 +1,19 @@
+footer{
+    
+    .foot{
+        
+        width: 100%;
+        .text{
+            @include flexBox();
+            a{
+                h1{
+                    font-size: 20px;
+                }
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+#card-me {
+    margin-top: 100px;
+    padding: 50px 0px;
+    background-color: $narinci-reng;
+    @include flexBox();
+    .container{
+        max-width: 1200px;
+        @include flexBox();
+        .row{
+            @include flexBox();
+            .cards-area {
+                @include flexBox();
+                gap: 20px;
+                .cards{
+                    @include flexBox();
+                    flex-direction: column;
+                    .button{
+                        button{
+                            margin-top: 10px;
+                            border: none;
+                            padding: 15px;
+                            border-radius: 5px;
+                        }
+                    }
+
+                }
+                .img{
+                    @include flexBox();
+                    margin-bottom: 10px;  
+                    img{
+                        width: 50%;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
