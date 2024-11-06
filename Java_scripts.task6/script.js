@@ -98,7 +98,7 @@ let milks = [
     
 //     if (item.price > acc.maxPrice) {
 //       acc.maxPrice = item.price;
-//     }
+//     }f
    
 //     if (item.price < acc.minPrice) {
 //       acc.minPrice = item.price;
