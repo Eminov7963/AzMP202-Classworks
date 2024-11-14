@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    background-color: rgb(12, 185, 228);
+    text-align: center;
+    width: 30%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main .div1 {
+    color: white;
+    cursor: pointer;
+}
+
+.main .div2 {
+    background-color: rgb(13, 210, 66);
+    height: 0; 
+    padding: 0;
+    overflow: hidden;
+    transition: height 0.3s ease, padding 0.3s ease; 
+    color: white;
+}

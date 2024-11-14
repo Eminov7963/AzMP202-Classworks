@@ -148,7 +148,7 @@
 //     let reminder = n % 10;
 //     console.log(reminder);
 //     n = (n - reminder) / 10;
-
+// }
 // }
 // let eded = +prompt('ededi daxil edin')
 // let prime = true
