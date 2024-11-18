@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto";
+  background-color: #07b9cd;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.container {
+  width: 500px;
+  background: #0bdc5b;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #7f9713;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #5094dd;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #eaf7ea;
+  border-radius: 5px;
+}
+
+li.completed {
+  background-color: #d4edda;
+  text-decoration: line-through;
+}
+
+.todo-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-buttons button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#todoCount {
+  margin-top: 10px;
+  font-size: 14px;
+  color:#555;
+
+}
