@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "hashed_password",
+      "role": "user",
+      "profilePicture": "https://example.com/profile.jpg",
+      "createdAt": "2024-11-25",
+      "basket": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ],
+      "favorites": [
+        {
+          "productId": 3
+        },
+        {
+          "productId": 1
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "4K Teledsvision",
+      "price": "81",
+      "description": "fasfds",
+      "stock": "411",
+      "id": "6"
+    },
+    {
+      "id": "6",
+      "name": "4K Television",
+      "description": "Ultra HD 4K television with vivid colors and clarity.",
+      "price": 899.99,
+      "stock": 25,
+      "discount": 25,
+      "categoryId": 2,
+      "image": "https://d3fppka8t5rpz7.cloudfront.net/filters:format(webp)/dev/images/81mLFIaCYwL._SL1500_.jpg",
+      "createdAt": "2024-11-18"
+    },
+    {
+      "id": "410f",
+      "name": "4K Television",
+      "price": "32",
+      "description": "sfe",
+      "stock": "34"
+    }
+  ],
+  "categories": [
+    {
+      "name": "test",
+      "createdAt": "2024-11-26",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Smartphones",
+      "createdAt": "2024-11-25"
+    },
+    {
+      "name": "Gaming",
+      "createdAt": "2024-11-26",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Accessories",
+      "createdAt": "2024-11-25"
+    }
+  ]
+}
