@@ -1,0 +1,74 @@
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .dashboard-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .stats, .recent-activity {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .stat-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stat-card:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .recent-activity ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .recent-activity li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    color: #666;
+  }
+  
+  .recent-activity li:last-child {
+    border-bottom: none;
+  }
+  
+  .dashboard-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: auto;
+  }
+  
+  .dashboard-footer p {
+    margin: 0;
+  }
+  
