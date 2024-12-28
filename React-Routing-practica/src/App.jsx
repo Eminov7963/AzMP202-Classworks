@@ -7,25 +7,35 @@ import Home from './pages/Client/Home'
 import ProductDetails from './pages/Client/ProductDetails'
 import Products from './pages/Client/Products'
 import Notfound from './pages/NotFound'
+import AdminMainLayout from './layouts/Admin/AdminMainLayout'
+import Dashboard from './pages/Admin/DashBoard'
+import AdminProducts from './pages/Admin/AdminProducts'
+import AddProduct from './pages/Admin/AddProduct'
 
 function App() {
 
 
   return (
     <>
-        <Routes>
-          {/* Client */}
-            <Route path='/' element={<MainLayout/>}>
-              <Route index element={<Home/>}/>
-              <Route path='contact' element={<Contact/>}/>
-              <Route path='products' element={<Products/>}/>
-              <Route path="products/:id" element={<ProductDetails />} />
-              <Route path='favorites' element={<Favorites/>}/>
-            </Route>
-            <Route path="*" element={<Notfound />} />
-        </Routes>
+      <Routes>
+        {/* Client */}
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="products" element={<Products />} />
+          <Route path="products/:id" element={<ProductDetails />} />
+          <Route path="favorites" element={<Favorites />} />
+        </Route>
+
+        <Route path="/admin" element={<AdminMainLayout />}>
+          <Route index element={<Dashboard />} />
+          <Route path='/admin/products' element={<AdminProducts/>}/>
+          <Route path='/admin/addproduct' element={<AddProduct/>}/>
+        </Route>
+        <Route path="*" element={<Notfound />} />
+      </Routes>
     </>
-  )
+  );
 }
 
 export default App
