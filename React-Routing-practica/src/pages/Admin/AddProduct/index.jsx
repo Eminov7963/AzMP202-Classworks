@@ -3,6 +3,7 @@ import styles from "./index.module.scss";
 
 import { enpoints } from "../../../services/constants";
 import controller from "../../../services/helper";
+import { Helmet } from "react-helmet-async";
 
 
 export default function AddProduct() {
@@ -40,6 +41,10 @@ export default function AddProduct() {
 
   return (
     <form className={styles.addform} onSubmit={handleSubmit}>
+      <Helmet>
+        <title>Product Adding</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
       <h2 className={styles.title}>Add a Product</h2>
 
       <div className={styles.inputGroup}>

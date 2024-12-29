@@ -46,60 +46,7 @@ const ProductDetails = () => {
       
 
       <div>
-        {product && (
-          <div className={styles.productDetails}>
-            <div className={styles.productImage}>
-              <ImageGallery
-                images={product.images}
-                thumbnail={product.thumbnail}
-              />
-            </div>
-            <div className={styles.productInfo}>
-              <h1 className={styles.productTitle}>{product.title}</h1>
-              <p className={styles.productBrand}>By {product.brand}</p>
-              <div className={styles.productRating}>
-                <Star className={styles.starIcon} />
-                <span>{product.rating}</span>
-              </div>
-              <p className={styles.productPrice}>${product.price}</p>
-              <p className={styles.productDescription}>{product.description}</p>
-              <div className={styles.productActions}>
-                <input
-                  type="number"
-                  min="1"
-                  value={quantity}
-                  onChange={handleQuantityChange}
-                  className={styles.quantityInput}
-                />
-                <button
-                  onClick={handleAddToCart}
-                  className={styles.addToCartButton}
-                >
-                  Add to Cart
-                </button>
-              </div>
-              <p className={styles.stockInfo}>
-                In Stock: {product.stock} units
-              </p>
-              <div className={styles.productTags}>
-                {product.tags.map((tag, index) => (
-                  <span key={index} className={styles.tag}>
-                    {tag}
-                  </span>
-                ))}
-              </div>
-
-              <div>
-                <button
-                  onClick={handleGoBack}
-                  className={styles.goBackBtn}
-                >
-                  Go Back
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
+       details
       </div>
     </>
   );
