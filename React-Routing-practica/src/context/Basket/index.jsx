@@ -14,7 +14,7 @@ const BasketProvider = ({ children }) => {
                 return [...prevBasket, { ...product, quantity: 1 }]
             }
 
-            prevBasket[idx].quantity++
+            prevBasket[idx].quantity+=1
             return [...prevBasket]
         })
 
