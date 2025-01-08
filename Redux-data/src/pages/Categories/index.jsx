@@ -16,7 +16,7 @@ const Categories = () => {
     const wishlist = useSelector((state) => state.wishlist)
 
     const [deleteCategoryById, deleteResponse] = useDeleteCategoryByIdMutation()
-
+    
     const dispatch = useDispatch()
     const handleDelete = async (categoryId) => {
         try {
