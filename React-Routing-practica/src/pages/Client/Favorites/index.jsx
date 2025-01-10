@@ -2,14 +2,19 @@ import React, { useContext } from 'react'
 import { Card, Col, Row } from 'antd';
 import { FaHeart } from "react-icons/fa6";
 const { Meta } = Card;
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import { FaRegHeart } from "react-icons/fa6";
 import { FavoritesContext } from '../../../context/Favoritest';
+import { Helmet } from 'react-helmet-async';
 const Favorites = () => {
   const { favorites, Wishproducts, clearFavorites } = useContext(FavoritesContext)
 
   return (
     <>
+      <Helmet>
+        <title>Favorites</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
       <Row gutter={16}>
         {favorites.length > 0 && favorites.map((p) => {
           return <Col className="gutter-row" span={6} key={p.id}>
@@ -26,7 +31,7 @@ const Favorites = () => {
                 <span>
 
                   <FaHeart onClick={() => Wishproducts(p)} />
-                  
+
 
                 </span>
               </div>} />

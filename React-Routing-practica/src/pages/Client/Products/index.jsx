@@ -14,6 +14,9 @@ import Select from "@mui/material/Select";
 import { InputLabel, MenuItem } from "@mui/material";
 import CircularProgress from "@mui/material/CircularProgress";
 import TextField from "@mui/material/TextField";
+import { Helmet } from 'react-helmet-async';
+import { BasketContext } from '../../../context/Basket';
+import { FaShoppingBasket } from "react-icons/fa";
 
 const { Meta } = Card;
 
@@ -22,6 +25,7 @@ const Products = () => {
   const [statedata, setProducts] = useState([]);
   const [sortValue, setSortValue] = useState("default");
   const [inputValue, setInputValue] = useState("");
+  const { addToBasket } = useContext(BasketContext)
 
 
 
@@ -53,19 +57,26 @@ const Products = () => {
   }, []);
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexDirection: 'column', padding: '10px' }}>
 
+
+
+
+    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexDirection: 'column', padding: '10px' }}>
+      <Helmet>
+        <title>Products</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
 
       <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '10px 0px 30px 0px', gap: '190px' }}>
         <div>
-        <label htmlFor="Basic">Search</label>
-        <Input
-          placeholder="Basic usage"
-          id='Basic'
-          style={{ width: '500px', margin: '10px 10px', display: 'inline-block' }}
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value.trim())}
-        />
+          <label htmlFor="Basic">Search</label>
+          <Input
+            placeholder="Basic usage"
+            id='Basic'
+            style={{ width: '500px', margin: '10px 10px', display: 'inline-block' }}
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value.trim())}
+          />
         </div>
         <FormControl fullWidth style={{ width: '300px' }}>
           <InputLabel id="demo-simple-select-label">Sort</InputLabel>{" "}
@@ -103,12 +114,19 @@ const Products = () => {
                     <div>
                       <p>Price: $ {p.price}</p>
                       <p>{p.description.slice(0, 50)}</p>
-                      
+
                       <span>
                         <Button onClick={() => Wishproducts(p)}>
                           {favorites.find((q) => q.id === p.id) ? <FaHeart /> : <FaRegHeart />}
                         </Button>
+                        
                       </span>
+                      <span><Button onClick={() => { addToBasket(p) }}><FaShoppingBasket
+                          style={{ color: 'green', fontSize: '24px', cursor: 'pointer' }} // Example styling
+                          onClick={() => addToBasket(p)}
+                        >
+                          Add to Cart
+                        </FaShoppingBasket></Button></span>
                     </div>
                   }
                 />

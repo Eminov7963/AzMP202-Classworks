@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import controller from "../../../services/helper";
 import { enpoints } from "../../../services/constants";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet-async";
 const AdminProducts = () => {
   const [admin_products, setAdminProducts] = useState([]);  
   const [loading, setLoading] = useState(true);
@@ -109,6 +110,10 @@ const AdminProducts = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Admin Product</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
       <h2>Product List</h2>
       <table border="1" cellPadding="10" cellSpacing="0">
         <thead>
