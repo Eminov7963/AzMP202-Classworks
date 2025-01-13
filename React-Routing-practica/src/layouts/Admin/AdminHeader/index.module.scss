@@ -1,0 +1,19 @@
+header {
+    background-color: rgb(13, 89, 169);
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    nav {
+      ul {
+        a{
+            color: white;
+            text-decoration: none;
+            
+        }
+        color: white;
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+      }
+    }
+  }

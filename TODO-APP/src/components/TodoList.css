@@ -1,0 +1,83 @@
+/* TodoList.css */
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info .complated {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.todo-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.edit-btn, .delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.edit-btn:hover {
+  color: #007bff;
+}
+
+.delete-btn:hover {
+  color: #dc3545;
+}
+
+.edit-btn, .delete-btn {
+  color: #495057;
+}
+
+.modal-header {
+  background-color: #f1f1f1;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.modal-footer .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #0056b3;
+}
+
