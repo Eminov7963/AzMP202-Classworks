@@ -1,0 +1,44 @@
+.products{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card{
+        margin-right: 40px;
+        img{
+            width: 100%;
+            
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        .oldprice{
+            text-decoration: line-through;
+        }
+        .basket{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border: none;
+            background-color: rgb(147, 71, 217);
+            color: yellow;
+            width: 50%;
+        }
+        .heart{
+            border: none;
+            color: red  ;
+        }
+    }
+}
+.container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    .select{
+        padding: 10px 30px;
+    }
+}

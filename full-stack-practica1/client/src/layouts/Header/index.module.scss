@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    .head{
+        img{
+            padding-top: 30px;
+        }
+    }
+
+    ul{
+        display: flex;
+        gap: 30px;
+        li{
+            font-size: 1.3rem;
+        }
+    }
+}
