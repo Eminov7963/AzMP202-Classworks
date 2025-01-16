@@ -1,0 +1,66 @@
+main{
+    margin-top: 20px;
+    .products{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .search{
+            display: flex;
+            width: 78%;
+            margin-bottom: 10px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .cards{
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                width: 400px;
+                img{
+                    width: 100%;
+                }
+                .oldprice{
+                    text-decoration: line-through;
+                }
+                .crud{
+                    display: flex;
+                    gap: 15px;
+                    .delete{
+                        font-size: 1.1rem;
+                        width: 10%;
+                        border: none;
+                        cursor: pointer;
+                        color: red;
+                        background-color: rgb(230, 161, 161);
+                        padding: 5px;
+                    }
+                    .info{
+                        text-align: center;
+                        font-size: 1.1rem;
+                        width: 10%;
+                        border: none;
+                        cursor: pointer;
+                        color: blue;
+                        background-color: rgb(15, 207, 255);
+                        padding: 5px;
+                    }
+                    .heart{
+                        font-size: 1.1rem;
+                        width: 10%;
+                        border: none;
+                        cursor: pointer;
+                        color: red;
+                        background-color: rgb(243, 255, 8);
+                        padding: 5px;
+                    }
+                    
+                }
+            }
+        }
+
+    }
+}
