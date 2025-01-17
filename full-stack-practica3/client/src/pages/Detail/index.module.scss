@@ -1,0 +1,33 @@
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Det{
+       background-color: rgb(158, 234, 251);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      height: 400px;
+      padding: 0px 10px;
+      border: 1px solid black;
+      border-radius: 6px;
+      color: rgb(73, 71, 71);
+      img {
+        border-radius: 50%;
+        width: 80%;
+        height: 50%;
+      }
+      h1 {
+        font-size: 1.2rem;
+        width: 100%;
+      }
+      .price{
+        color: rgb(204, 147, 48);
+        font-size: 1.2rem;
+      }
+    }
+}

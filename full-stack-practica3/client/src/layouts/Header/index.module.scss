@@ -1,0 +1,57 @@
+header {
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    padding-top: 20px;
+    .head {
+    .top {
+        display: flex;
+        justify-content: space-around;
+      .left {
+        border: 1px solid white;
+        color: white;
+        padding: 5px;
+      }
+      .right {
+        ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 40px;
+          li{
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        flex-direction: column;
+        gap: 20px;
+        h1{
+            font-size: 3.5rem;
+             color: white;
+
+        }
+        button{
+            border: 1px solid white;
+            color: white;
+            font-size: 1.5rem;
+            padding: 7px 15px;
+            background-color: transparent;
+            transition: 0.4s;
+            &:hover{
+                transform: (scale(1.08));
+                background-color: orange;
+                cursor: pointer;
+            }
+        }
+    }
+  }
+}

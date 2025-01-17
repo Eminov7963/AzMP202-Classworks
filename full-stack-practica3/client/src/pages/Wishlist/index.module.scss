@@ -1,0 +1,44 @@
+.wish{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    gap: 40px;
+    .Wishcard{
+        background-color: rgb(240, 198, 153);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      height: 400px;
+      padding: 0px 10px;
+      border: 1px solid black;
+      border-radius: 6px;
+      color: rgb(73, 71, 71);
+      img {
+        border-radius: 50%;
+        width: 80%;
+        height: 50%;
+      }
+      h1 {
+        font-size: 1.2rem;
+        width: 100%;
+      }
+      .price{
+        color: rgb(204, 147, 48);
+        font-size: 1.2rem;
+      }
+      .heart{
+            font-size: 1.3rem;
+            padding: 7px 10px;
+            background-color: rgb(255, 0, 0);
+            color: white;
+            border: 1px solid rgb(222, 216, 45);
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+
+}
